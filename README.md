@@ -195,6 +195,9 @@ docker run -p 8000:8000 medical-report-simplifier
 
 **Vishwa Sundar S**
 📌 Smart Manufacturing @ IIITDM Kancheepuram
+📧 [svishwasundar6@gmail.com](mailto:svishwasundar6@gmail.com)
 🔗 [GitHub](https://github.com/vishwa573)
+
+
 
 ---
