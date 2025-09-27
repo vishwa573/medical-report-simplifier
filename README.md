@@ -19,8 +19,11 @@ A short screen recording demonstrating the API handling **clean typed**, **angle
 ## ✨ Key Features
 
 ✅ **Dual API Endpoints**: Separate endpoints for **image uploads** (`/process-report/image/`) and **raw text** (`/process-report/text/`).
+
 ✅ **Adaptive OCR Pipeline**: Uses **PaddleOCR** with a second-pass **OpenCV preprocessing** step for handwriting and low-quality scans.
+
 ✅ **Text Normalization Engine**: Regex + Fuzzy Matching (`thefuzz`) to clean noisy OCR output, correct typos, and standardize test names.
+
 ✅ **Knowledge-Driven Validation**:
 
 * Corrects units and validates ranges.
