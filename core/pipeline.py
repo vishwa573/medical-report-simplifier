@@ -8,7 +8,7 @@ import json
 from core.extract import  extract_text_from_report
 from core.parser import  normalize_tests,_extract_test_lines_from_text
 from core.summarizer import generate_summary
-# from paddleocr import PaddleOCR # type: ignore
+# from paddleocr import PaddleOCR 
 
 
 def clean_status_word(status: str) -> str:
