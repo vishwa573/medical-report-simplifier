@@ -118,17 +118,17 @@ Server will start at: `http://127.0.0.1:8000`
 * **Curl Example**:
 
 ```bash
-curl -X POST "http://127.0.0.1:8000/process-report/image/" ^
--F "file=@./images/sample_report.png" | python -m json.tool
+curl -X POST "http://127.0.0.1:8000/process-report/image/" 
+-F "file=@{FILE_PATH_TO_YOUR_IMAGE}" | python -m json.tool
 ```
 
 ```bash
-curl -X POST "http://127.0.0.1:8000/process-report/image/" ^
--F "file=@./images/sample_report2.png" | python -m json.tool
+curl -X POST "http://127.0.0.1:8000/process-report/image/" 
+-F "file=@{FILE_PATH_TO_YOUR_IMAGE}" | python -m json.tool
 ```
 ```bash
-curl -X POST "http://127.0.0.1:8000/process-report/image/" ^
--F "file=@./images/hand_written.jpg" | python -m json.tool
+curl -X POST "http://127.0.0.1:8000/process-report/image/" 
+-F "file=@{FILE_PATH_TO_YOUR_IMAGE}" | python -m json.tool
 ```
 
 ---
@@ -140,8 +140,8 @@ curl -X POST "http://127.0.0.1:8000/process-report/image/" ^
 * **Curl Example**:
 
 ```bash
-curl -X POST "http://127.0.0.1:8000/process-report/text/" ^
--H "Content-Type: application/json" ^
+curl -X POST "http://127.0.0.1:8000/process-report/text/" 
+-H "Content-Type: application/json" 
 -d "{\"text\": \"Hemoglobin 10.2 g/dL (Low), WBC 11,200 /uL (High)\"}" | python -m json.tool
 ```
 
