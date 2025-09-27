@@ -4,7 +4,6 @@ Module: extract
 Purpose: Extract raw text from medical reports (image or direct text).
 """
 
-import pytesseract # type: ignore
 import cv2 # type: ignore
 import re
 from paddleocr import PaddleOCR # type: ignore
