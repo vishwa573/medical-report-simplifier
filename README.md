@@ -157,6 +157,7 @@ The project has been tested against the following input types:
 4. **Direct text input (JSON)** ✅
 
 Each case produces structured JSON and patient-friendly summaries.
+Sample test cases are available in the images directory.
 
 ---
 
