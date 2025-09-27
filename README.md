@@ -172,11 +172,19 @@ Each case produces structured JSON and patient-friendly summaries.
 ## 📦 Optional: Docker Setup
 
 If you want to run in Docker:
-
+1. Clone the GitHub repository
+```bash
+git clone https://github.com/vishwa573/medical-report-simplifier.git
+cd medical-report-simplifier
+```
+2. Build the Docker image and Run the container
 ```bash
 docker build -t medical-report-simplifier .
 docker run -p 8000:8000 medical-report-simplifier
 ```
+3. Access the API
+Open your browser and visit the FastAPI docs:
+http://127.0.0.1:8000/docs
 
 ---
 
