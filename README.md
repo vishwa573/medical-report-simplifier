@@ -170,8 +170,8 @@ Each case produces structured JSON and patient-friendly summaries.
 ---
 
 ## 📦 Optional: Docker Setup
+You can run the project inside a Docker container for a consistent environment. Make sure you have Docker Desktop installed on your machine before proceeding.
 
-If you want to run in Docker:
 1. Clone the GitHub repository
 ```bash
 git clone https://github.com/vishwa573/medical-report-simplifier.git
