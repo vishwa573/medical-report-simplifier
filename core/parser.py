@@ -5,7 +5,7 @@ Purpose: Correct OCR typos in test names and normalize them into structured JSON
 """
 
 import re
-from thefuzz import process, fuzz # type: ignore
+from thefuzz import process, fuzz 
 from core.knowledge_base import VALID_TEST_NAMES, MEDICAL_TESTS
 
 def _extract_test_lines_from_text(raw_text: str) -> list[str]:
