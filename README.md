@@ -122,6 +122,15 @@ curl -X POST "http://127.0.0.1:8000/process-report/image/" ^
 -F "file=@./images/sample_report.png" | python -m json.tool
 ```
 
+```bash
+curl -X POST "http://127.0.0.1:8000/process-report/image/" ^
+-F "file=@./images/sample_report2.png" | python -m json.tool
+```
+```bash
+curl -X POST "http://127.0.0.1:8000/process-report/image/" ^
+-F "file=@./images/hand_written.jpg" | python -m json.tool
+```
+
 ---
 
 ### 2. Process Report from Raw Text
