@@ -177,7 +177,7 @@ You can run the project inside a Docker container for a consistent environment. 
 git clone https://github.com/vishwa573/medical-report-simplifier.git
 cd medical-report-simplifier
 ```
-2. Build the Docker image and Run the container
+2. Build the Docker image and Run the container (Make sure the docker is running in the background)
 ```bash
 docker build -t medical-report-simplifier .
 docker run -p 8000:8000 medical-report-simplifier
