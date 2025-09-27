@@ -4,9 +4,9 @@ Module: extract
 Purpose: Extract raw text from medical reports (image or direct text).
 """
 
-import cv2 # type: ignore
+import cv2 
 import re
-from paddleocr import PaddleOCR # type: ignore
+from paddleocr import PaddleOCR 
 
 import logging
 
