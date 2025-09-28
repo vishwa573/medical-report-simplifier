@@ -144,6 +144,36 @@ curl -X POST "http://127.0.0.1:8000/process-report/text/"
 -H "Content-Type: application/json" 
 -d "{\"text\": \"Hemoglobin 10.2 g/dL (Low), WBC 11,200 /uL (High)\"}" | python -m json.tool
 ```
+---
+
+### 📦 **Optional: Run with Docker**
+
+You can run the project inside a Docker container for a consistent environment. Make sure you have Docker Desktop installed on your machine before proceeding.
+
+1.Clone the GitHub repository
+```bash
+git clone https://github.com/vishwa573/medical-report-simplifier.git
+cd medical-report-simplifier
+```
+
+2.Build the Docker image
+This command reads the Dockerfile in the current directory and builds the image.
+
+```bash
+docker build -t medical-report-simplifier .
+```
+
+3.Run the container
+This launches the FastAPI server inside Docker and maps it to port 8000 on your machine.
+```bash
+docker run -p 8000:8000 medical-report-simplifier
+```
+
+4.Access the API
+Open your browser and visit the FastAPI docs or or make API calls to the endpoints:
+http://127.0.0.1:8000/docs
+
+Note: Docker Desktop must be installed and running for the above commands to work.
 
 ---
 
