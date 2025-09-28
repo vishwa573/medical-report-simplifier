@@ -35,6 +35,9 @@ A short screen recording demonstrating the API handling **clean typed**, **angle
 ---
 
 ## 🏗️ Architecture
+An important decision in this project was the choice of OCR engine. The initial prototype was developed using the Tesseract engine. While powerful for clean text, it became clear during testing that achieving high accuracy on varied handwriting and angled photos would require an extensive and complex preprocessing pipeline.
+
+To create a more robust service, the OCR module was re-engineered using PaddleOCR. Its modern architecture, combined with a targeted OpenCV preprocessing pipeline, delivered significantly higher out-of-the-box accuracy on these challenging real-world documents. 
 
 The system is designed as a **multi-stage pipeline**:
 
